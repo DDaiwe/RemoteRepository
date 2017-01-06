@@ -39,6 +39,13 @@ public class ImageLoader {
 		};
 	}
 
+	/**
+	 * 
+	 * display image in imageview
+	 * 
+	 * @param url
+	 * @param imageView
+	 */
 	public void displayImage(final String url, final ImageView imageView) {
 		imageView.setTag(url);
 		mExecutorService.submit(new Runnable() {
