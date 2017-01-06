@@ -41,8 +41,6 @@ public class ImageLoader {
 
 	/**
 	 * 
-	 * display image in imageview
-	 * 
 	 * @param url
 	 * @param imageView
 	 */
@@ -64,6 +62,11 @@ public class ImageLoader {
 		});
 	}
 
+	/**
+	 * 
+	 * @param imageUrl
+	 * @return
+	 */
 	protected Bitmap downloadImage(String imageUrl) {
 
 		Bitmap bitmap = null;
